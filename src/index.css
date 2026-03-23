@@ -8,17 +8,9 @@
 
   --font-outfit: 'Outfit', ui-sans-serif, system-ui, sans-serif;
 
-  --text-title: 22px;
-  --text-title-line-height: 1.2;
-  --text-title-letter-spacing: 0px;
-
-  --text-body: 15px;
-  --text-body-line-height: 1.4;
-  --text-body-letter-spacing: 0.2px;
-
-  --spacing-sm: 16px;
-  --spacing-md: 24px;
-  --spacing-lg: 40px;
+  --spacing-sm: 16px; /* 200 en figma */
+  --spacing-md: 24px; /* 300 en figma */
+  --spacing-lg: 40px; /* 400 en figma */
 }
 
 @layer base {

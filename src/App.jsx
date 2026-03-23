@@ -2,25 +2,26 @@ import image from './assets/image-qr-code.png';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col border-2 border-red-400">
-      <main className="flex-1 flex items-center justify-center p-4 border-2 border-green-400">
-        <div className="bg-white rounded-2xl p-md flex flex-col gap-md max-w-xs shadow-lg border-2 border-blue-400">
+    <div className="min-h-screen flex flex-col">
+      <main className="flex flex-1 items-center justify-center">
+        <div className="bg-white rounded-2xl p-sm flex flex-col gap-md max-w-xs shadow-lg">
           <img
             src={image}
             alt="QR code para visitar Frontend Mentor"
             className="rounded-xl w-full"
           />
-          <div className="flex flex-col gap-sm pb-sm">
-            <h1 className="text-title font-bold text-slate-900 text-center">
+          <div className="flex flex-col gap-sm px-sm mb-md">
+            <h1 className="text-[22px] font-bold leading-[120%] tracking-normal text-slate-900 text-center">
               Improve your front-end skills by building projects
             </h1>
-            <p className="text-body text-slate-500 text-center">
+            <p className="text-[15px] text-slate-500 text-center leading-[140%] tracking-[0.2px]">
               Scan the QR code to visit Frontend Mentor and take your coding
               skills to the next level
             </p>
           </div>
         </div>
       </main>
+
       <footer className="text-center pb-4 text-body text-slate-500">
         Challenge by{' '}
         <a
