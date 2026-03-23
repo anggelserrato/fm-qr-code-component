@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![QR code component screenshot]()
+![qr code componente shots](https://github.com/user-attachments/assets/428b435f-8db5-41f9-aff7-54c42f0b2d05)
 
 ### Links
 
@@ -42,5 +42,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Website - [Add your name here](https://www.serrato.me)
+- Website - [Angel Serrato](https://www.serrato.me)
 - Frontend Mentor - [@anggelserrato](https://www.frontendmentor.io/profile/anggelserrato)
