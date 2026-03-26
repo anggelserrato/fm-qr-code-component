@@ -20,27 +20,30 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/anggelserrato/fm-qr-code-component)
-- Live Site URL: [Add live site URL here](https://fm-qr-code-component-hazel.vercel.app/)
+- Solution URL: [View Code](https://github.com/anggelserrato/fm-qr-code-component)
+- Live Site URL: [Live Site](https://fm-qr-code-component-hazel.vercel.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
+- Mobile-first workflow
 - CSS custom properties (used in @theme)
 - Flexbox
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Vite](https://vitejs.dev/) - Frontend build tool
 - [Tailwind CSS v4](https://tailwindcss.com/) - Utility-first CSS framework
+- [React](https://reactjs.org/) - JS library
+- [Google Fonts](https://fonts.google.com/) - For typography
+- [Vite](https://vitejs.dev/) - Frontend build tool
+- [Prettier](https://prettier.io/) - For consistent code formatting
+- [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) - For CSS classes sorting
 
 ### Useful resources
 
-- [Shoots.so](https://shoots.so/) - A fantastic tool for creating beautiful and professional screenshots of your websites.
+- [Shots.so](https://shots.so/) - A fantastic tool for creating beautiful and professional screenshots of your websites.
 - [Squoosh.app](https://squoosh.app/) - An amazing image optimizer that helps you compress images without losing quality, making your site load faster.
 
 ## Author
 
-- Website - [Angel Serrato](https://www.serrato.me)
+- Website - [serrato.me](https://www.serrato.me)
 - Frontend Mentor - [@anggelserrato](https://www.frontendmentor.io/profile/anggelserrato)
