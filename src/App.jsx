@@ -21,30 +21,6 @@ function App() {
           </figcaption>
         </figure>
       </article>
-
-      <footer className="text-body pb-4 text-center text-slate-500">
-        Challenge by{' '}
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Frontend Mentor (opens in a new tab)"
-          className="font-bold text-slate-900"
-        >
-          Frontend Mentor
-        </a>
-        . Coded by{' '}
-        <a
-          href="https://www.frontendmentor.io/profile/anggelserrato"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Angel Serrato (opens in a new tab)"
-          className="font-bold text-slate-900"
-        >
-          Angel Serrato
-        </a>
-        .
-      </footer>
     </div>
   );
 }

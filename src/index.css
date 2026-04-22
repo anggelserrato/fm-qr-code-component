@@ -5,12 +5,10 @@
   --color-slate-300: hsl(212, 45%, 89%);
   --color-slate-500: hsl(216, 15%, 48%);
   --color-slate-900: hsl(218, 44%, 22%);
-
   --font-outfit: 'Outfit', ui-sans-serif, system-ui, sans-serif;
-
-  --spacing-sm: 16px; /* 200 en figma */
-  --spacing-md: 24px; /* 300 en figma */
-  --spacing-lg: 40px; /* 400 en figma */
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 40px;
 }
 
 @layer base {
