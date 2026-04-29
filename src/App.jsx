@@ -2,26 +2,24 @@ import image from './assets/image-qr-code.png';
 
 function App() {
   return (
-    <div className="flex min-h-screen flex-col">
-      <article className="flex flex-1 items-center justify-center">
-        <figure className="flex max-w-xs flex-col gap-md rounded-2xl bg-white p-sm shadow-lg">
-          <img
-            src={image}
-            alt="QR code para visitar Frontend Mentor"
-            className="w-full rounded-xl"
-          />
-          <figcaption className="mb-md flex flex-col gap-sm px-sm">
-            <h1 className="text-center text-[22px] leading-[120%] font-bold tracking-normal text-slate-900">
-              Improve your front-end skills by building projects
-            </h1>
-            <p className="text-center text-[15px] leading-[140%] tracking-[0.2px] text-slate-500">
-              Scan the QR code to visit Frontend Mentor and take your coding
-              skills to the next level
-            </p>
-          </figcaption>
-        </figure>
+    <main className="bg-color-slate-300 flex min-h-screen flex-col items-center justify-center">
+      <article className="flex max-w-[20rem] flex-col gap-300 rounded-[1.25rem] bg-white px-200 pt-200 pb-500 shadow-[0_25px_25px_0_rgba(0,0,0,0.05)]">
+        <img
+          src={image}
+          alt="QR code para visitar Frontend Mentor"
+          className="rounded-[0.625rem]"
+        />
+        <div className="flex flex-col gap-200 px-200 text-center">
+          <h1 className="text-preset-1 text-slate-900">
+            Improve your front-end skills by building projects
+          </h1>
+          <p className="text-preset-2 text-slate-500">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
       </article>
-    </div>
+    </main>
   );
 }
 
