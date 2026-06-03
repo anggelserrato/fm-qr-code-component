@@ -1,5 +1,12 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'Outfit';
+  src: url('./fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
 @theme {
   --color-slate-300: hsl(212, 45%, 89%);
   --color-slate-500: hsl(216, 15%, 48%);
@@ -11,6 +18,12 @@
 }
 
 @layer base {
+  html {
+    /* Smooths text by reducing the thickness of glyph edges, making fonts appear lighter and cleaner on macOS browsers. */
+    @apply antialiased;
+    /* Forces grayscale font rendering in Firefox on macOS, improving consistency and reducing the look of uneven subpixel text rendering. */
+    -moz-osx-font-smoothing: grayscale;
+  }
   body {
     background-color: var(--color-slate-300);
     font-family: var(--font-outfit);

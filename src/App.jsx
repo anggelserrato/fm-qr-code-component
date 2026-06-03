@@ -2,11 +2,11 @@ import image from './assets/image-qr-code.png';
 
 function App() {
   return (
-    <main className="bg-color-slate-300 flex min-h-screen flex-col items-center justify-center">
+    <main className="bg-color-slate-300 flex min-h-screen flex-col items-center justify-center px-200">
       <article className="flex max-w-[20rem] flex-col gap-300 rounded-[1.25rem] bg-white px-200 pt-200 pb-500 shadow-[0_25px_25px_0_rgba(0,0,0,0.05)]">
         <img
           src={image}
-          alt="QR code para visitar Frontend Mentor"
+          alt="QR code to visit Frontend Mentor"
           className="rounded-[0.625rem]"
         />
         <div className="flex flex-col gap-200 px-200 text-center">
